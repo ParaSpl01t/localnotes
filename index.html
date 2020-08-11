@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notes</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js" defer></script>
+</head>
+
+<body>
+	<div id="app">
+		<div class="container">
+			<div class="sidebar">
+				<button class="btn" onclick="app.newNote()" tabindex="1">New Note</button>
+				<div id="list">
+				</div>
+			</div>
+			<div class="text">
+				<input type="text" id="title" autocomplete="off" autofocus="on" placeholder="Enter a Title..."
+					tabindex="2">
+				<textarea placeholder="Type your ideas here!" id="content" tabindex="4"></textarea>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
